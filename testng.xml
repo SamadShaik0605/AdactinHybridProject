@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="utils.MyTestNGListener"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="smoke.TC_101"/>
+      <class name="smoke.TC_102"/>
+      <class name="smoke.TC_103"/>
+      <class name="smoke.TC_104"/>
+      <class name="smoke.TC_105"/>
+      <class name="smoke.TC_106"/>
+      <class name="smoke.TC_107"/>
+      <class name="smoke.TC_108"/>
+      <class name="smoke.TC_109"/>
+      <class name="smoke.TC_110"/>
+      <class name="smoke.TC_111"/>
+      <class name="smoke.TC_112"/>
+      <class name="smoke.TC_113"/>
+      <class name="smoke.TC_114"/>
+      <class name="smoke.TC_115"/>
+      <class name="smoke.TC_116"/>
+      <class name="smoke.TC_117"/>
+      <class name="smoke.TC_118"/>
+      <class name="smoke.TC_119"/>
+      <class name="smoke.TC_120"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utils.MyTestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="smoke.TC_103">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="reportsEnd"/>
+          <include name="verifyPastDates" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- smoke.TC_103 -->
+      <class name="smoke.TC_104">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="verifySelectHotelLocation" invocation-numbers="0"/>
+          <include name="reportsEnd"/>
+        </methods>
+      </class> <!-- smoke.TC_104 -->
+      <class name="smoke.TC_102">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+          <include name="verifyCheckOutDate" invocation-numbers="0"/>
+          <include name="reportsEnd"/>
+        </methods>
+      </class> <!-- smoke.TC_102 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

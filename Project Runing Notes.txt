@@ -1,0 +1,61 @@
+--------------------------------------------------
+Day : 25th Mar - Tuesday
+--------------------------------------------------	
+
+POM - Page Object Model is a design pattern applied to framework 
+
+Here 
+
+for Each page we create a class (.java ) 
+
+where we declare/intialize WebElements present in that Page 
+and actions to be done on that WebElements
+
+
+
+Reyaz Shaik is inviting you to a scheduled Zoom meeting.
+
+Topic: Reyaz Shaik's Personal Meeting Room
+Join Zoom Meeting
+https://us04web.zoom.us/j/4423194106?pwd=R0RROGgxdVgxZWJXMkVrMzArL3ViZz09
+
+Meeting ID: 442 319 4106
+Passcode: 121314
+
+--------------------------------------------------
+Day : 26th Mar - Wednesday
+--------------------------------------------------
+
+Reporting Mechanism 
+
+Basic TestNG html reports are not used in real time 
+
+we will use some third party API's or Jar's or Dependencies 
+
+ExtentReports  ==> com.aventstack » extentreports
+
+Allure Reports 
+
+which Reporting mechanism you have used in your project ?
+
+Ans : ExtentReports
+
+
+ExtentReports(C)
+
+ExtentTest(C)
+
+ExtentSparkReporter(C) ==> used to give css to html 
+
+https://jenkov.com/tutorials/java-internationalization/simpledateformat.html
+
+
+--------------------------------------------------
+Day : 27th Mar - Thursday
+--------------------------------------------------
+
+Listeners in TestNG
+
+
+
+		
