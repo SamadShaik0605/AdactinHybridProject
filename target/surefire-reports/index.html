@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>G:\FLM_GITHUB_CODE\AdactinHybridFramework\AdactinHybridFramework\AdactinHybridFramework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="smoke.TC_120" class="method navigator-link" hash-for-method="ToVerifyAllPagesTitlesTC120({ExpiryDateYear=2030, FirstName=Samad, numberOfRooms=2, ExpiryDateMonth=12, CreditCardType=AMEX, che...)">ToVerifyAllPagesTitlesTC120({ExpiryDateYear=2030, FirstName=Samad, numberOfRooms=2, ExpiryDateMonth=12, CreditCardType=AMEX, che...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="smoke.TC_119" class="method navigator-link" hash-for-method="toCancelGeneratedOrderTC119({ExpiryDateYear=2030, FirstName=Samad, verifyResult=0 result(s) found, numberOfRooms=2, ExpiryDateMo...)">toCancelGeneratedOrderTC119({ExpiryDateYear=2030, FirstName=Samad, verifyResult=0 result(s) found, numberOfRooms=2, ExpiryDateMo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="smoke.TC_101" class="method navigator-link" hash-for-method="validLoginDetailsTC101({password=shaik123samad, username=Shaik123samad})">validLoginDetailsTC101({password=shaik123samad, username=Shaik123samad})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="smoke.TC_102" class="method navigator-link" hash-for-method="verifyCheckOutDateTC102({password=shaik123samad, checkOutDate=25/11/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms...)">verifyCheckOutDateTC102({password=shaik123samad, checkOutDate=25/11/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="smoke.TC_103" class="method navigator-link" hash-for-method="verifyPastDatesTC103({password=shaik123samad, checkOutDate=02/04/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms...)">verifyPastDatesTC103({password=shaik123samad, checkOutDate=02/04/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="smoke.TC_104" class="method navigator-link" hash-for-method="verifySelectHotelLocationTC104({password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, verifyLocation=Sydney, locatio...)">verifySelectHotelLocationTC104({password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, verifyLocation=Sydney, locatio...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">smoke.TC_104</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySelectHotelLocationTC104({password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, verifyLocation=Sydney, locatio...)">
+                  </a> <!-- verifySelectHotelLocationTC104({password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, verifyLocation=Sydney, locatio...) -->
+                  <span class="method-name">verifySelectHotelLocationTC104</span>
+                  <span class="parameters">({password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, verifyLocation=Sydney, location=Sydney, numberOfRooms=1, checkInDate=01/12/2025, roomType=Standard, username=Shaik123samad})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">smoke.TC_103</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPastDatesTC103({password=shaik123samad, checkOutDate=02/04/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms...)">
+                  </a> <!-- verifyPastDatesTC103({password=shaik123samad, checkOutDate=02/04/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms...) -->
+                  <span class="method-name">verifyPastDatesTC103</span>
+                  <span class="parameters">({password=shaik123samad, checkOutDate=02/04/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms=1, checkInError=Check-In Date should be either Today or Later Date, checkInDate=01/04/2025, roomType=Standard, username=Shaik123samad})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">smoke.TC_102</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckOutDateTC102({password=shaik123samad, checkOutDate=25/11/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms...)">
+                  </a> <!-- verifyCheckOutDateTC102({password=shaik123samad, checkOutDate=25/11/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms...) -->
+                  <span class="method-name">verifyCheckOutDateTC102</span>
+                  <span class="parameters">({password=shaik123samad, checkOutDate=25/11/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms=1, checkInError=Check-In Date shall be before than Check-Out Date, checkInDate=01/12/2025, roomType=Standard, checkOutError=Check-Out Date shall be after than Check-In Date, username=Shaik123samad})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">smoke.TC_101</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginDetailsTC101({password=shaik123samad, username=Shaik123samad})">
+                  </a> <!-- validLoginDetailsTC101({password=shaik123samad, username=Shaik123samad}) -->
+                  <span class="method-name">validLoginDetailsTC101</span>
+                  <span class="parameters">({password=shaik123samad, username=Shaik123samad})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">smoke.TC_119</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="toCancelGeneratedOrderTC119({ExpiryDateYear=2030, FirstName=Samad, verifyResult=0 result(s) found, numberOfRooms=2, ExpiryDateMo...)">
+                  </a> <!-- toCancelGeneratedOrderTC119({ExpiryDateYear=2030, FirstName=Samad, verifyResult=0 result(s) found, numberOfRooms=2, ExpiryDateMo...) -->
+                  <span class="method-name">toCancelGeneratedOrderTC119</span>
+                  <span class="parameters">({ExpiryDateYear=2030, FirstName=Samad, verifyResult=0 result(s) found, numberOfRooms=2, ExpiryDateMonth=12, CreditCardType=AMEX, checkInDate=01/12/2025, CVVNumber=123, BillingAddress=near near beside beside, CreditCardNo=1234567891234567, adultsPerRoom=1, verifyCancelled=The booking has been cancelled, password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, location=Sydney, LastName=Shaik, roomType=Standard, username=Shaik123samad})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">smoke.TC_120</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ToVerifyAllPagesTitlesTC120({ExpiryDateYear=2030, FirstName=Samad, numberOfRooms=2, ExpiryDateMonth=12, CreditCardType=AMEX, che...)">
+                  </a> <!-- ToVerifyAllPagesTitlesTC120({ExpiryDateYear=2030, FirstName=Samad, numberOfRooms=2, ExpiryDateMonth=12, CreditCardType=AMEX, che...) -->
+                  <span class="method-name">ToVerifyAllPagesTitlesTC120</span>
+                  <span class="parameters">({ExpiryDateYear=2030, FirstName=Samad, numberOfRooms=2, ExpiryDateMonth=12, CreditCardType=AMEX, checkInDate=01/12/2025, CVVNumber=123, BillingAddress=near near beside beside, CreditCardNo=1234567891234567, adultsPerRoom=1, password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, location=Sydney, LastName=Shaik, roomType=Standard, username=Shaik123samad})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">G:\FLM_GITHUB_CODE\AdactinHybridFramework\AdactinHybridFramework\AdactinHybridFramework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utils.MyTestNGListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;smoke.TC_101&quot;/&gt;
+      &lt;class name=&quot;smoke.TC_102&quot;/&gt;
+      &lt;class name=&quot;smoke.TC_103&quot;/&gt;
+      &lt;class name=&quot;smoke.TC_104&quot;/&gt;
+      &lt;class name=&quot;smoke.TC_119&quot;/&gt;
+      &lt;class name=&quot;smoke.TC_120&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'toCancelGeneratedOrderTC119')
+data.setCell(0, 2, 'smoke.TC_119')
+data.setCell(0, 3, 161422);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ToVerifyAllPagesTitlesTC120')
+data.setCell(1, 2, 'smoke.TC_120')
+data.setCell(1, 3, 58453);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifySelectHotelLocationTC104')
+data.setCell(2, 2, 'smoke.TC_104')
+data.setCell(2, 3, 2484);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyCheckOutDateTC102')
+data.setCell(3, 2, 'smoke.TC_102')
+data.setCell(3, 3, 2113);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyPastDatesTC103')
+data.setCell(4, 2, 'smoke.TC_103')
+data.setCell(4, 3, 1976);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validLoginDetailsTC101')
+data.setCell(5, 2, 'smoke.TC_101')
+data.setCell(5, 3, 1316);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">10 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">smoke.TC_104</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">reportsEnd</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">smoke.TC_103</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportsEnd</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">smoke.TC_102</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">reportsEnd</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">smoke.TC_120</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">reportsEnd</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">smoke.TC_119</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">reportsEnd</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">smoke.TC_101</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void smoke.TC_101.validLoginDetailsTC101(java.util.HashMap))</span>
+                <span class="method-start">1361 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validLoginDetailsTC101({password=shaik123samad, username=Shaik123samad})</span>
+                <span class="method-start">9681 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">11147 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">smoke.TC_102</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void smoke.TC_102.verifyCheckOutDateTC102(java.util.HashMap))</span>
+                <span class="method-start">14442 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckOutDateTC102({password=shaik123samad, checkOutDate=25/11/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms...)</span>
+                <span class="method-start">17696 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">19935 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">smoke.TC_103</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void smoke.TC_103.verifyPastDatesTC103(java.util.HashMap))</span>
+                <span class="method-start">23152 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPastDatesTC103({password=shaik123samad, checkOutDate=02/04/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms...)</span>
+                <span class="method-start">26001 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">28040 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">smoke.TC_104</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void smoke.TC_104.verifySelectHotelLocationTC104(java.util.HashMap))</span>
+                <span class="method-start">31295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySelectHotelLocationTC104({password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, verifyLocation=Sydney, locatio...)</span>
+                <span class="method-start">34332 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">36915 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">smoke.TC_119</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void smoke.TC_119.toCancelGeneratedOrderTC119(java.util.HashMap))</span>
+                <span class="method-start">40165 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">toCancelGeneratedOrderTC119({ExpiryDateYear=2030, FirstName=Samad, verifyResult=0 result(s) found, numberOfRooms=2, ExpiryDateMo...)</span>
+                <span class="method-start">42958 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">204465 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">smoke.TC_120</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void smoke.TC_120.ToVerifyAllPagesTitlesTC120(java.util.HashMap) throws java.lang.Interrupted...)</span>
+                <span class="method-start">207720 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ToVerifyAllPagesTitlesTC120({ExpiryDateYear=2030, FirstName=Samad, numberOfRooms=2, ExpiryDateMonth=12, CreditCardType=AMEX, che...)</span>
+                <span class="method-start">213034 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">271566 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">smoke.TC_101</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">reportsEnd</span>
+                <span class="method-start">274768 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

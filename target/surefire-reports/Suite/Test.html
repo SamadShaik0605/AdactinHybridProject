@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 07 23:32:28 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>275 seconds (275324 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='smoke.TC_103.verifyPastDatesTC103()'><b>verifyPastDatesTC103</b><br>Test class: smoke.TC_103<br>Parameters: {password=shaik123samad, checkOutDate=02/04/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms=1, checkInError=Check-In Date should be either Today or Later Date, checkInDate=01/04/2025, roomType=Standard, username=Shaik123samad}</td>
+<td></td>
+<td>1</td>
+<td>smoke.TC_103@145f66e3</td></tr>
+<tr>
+<td title='smoke.TC_104.verifySelectHotelLocationTC104()'><b>verifySelectHotelLocationTC104</b><br>Test class: smoke.TC_104<br>Parameters: {password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, verifyLocation=Sydney, location=Sydney, numberOfRooms=1, checkInDate=01/12/2025, roomType=Standard, username=Shaik123samad}</td>
+<td></td>
+<td>2</td>
+<td>smoke.TC_104@3023df74</td></tr>
+<tr>
+<td title='smoke.TC_101.validLoginDetailsTC101()'><b>validLoginDetailsTC101</b><br>Test class: smoke.TC_101<br>Parameters: {password=shaik123samad, username=Shaik123samad}</td>
+<td></td>
+<td>1</td>
+<td>smoke.TC_101@2a3b5b47</td></tr>
+<tr>
+<td title='smoke.TC_102.verifyCheckOutDateTC102()'><b>verifyCheckOutDateTC102</b><br>Test class: smoke.TC_102<br>Parameters: {password=shaik123samad, checkOutDate=25/11/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms=1, checkInError=Check-In Date shall be before than Check-Out Date, checkInDate=01/12/2025, roomType=Standard, checkOutError=Check-Out Date shall be after than Check-In Date, username=Shaik123samad}</td>
+<td></td>
+<td>2</td>
+<td>smoke.TC_102@4c371370</td></tr>
+<tr>
+<td title='smoke.TC_120.ToVerifyAllPagesTitlesTC120()'><b>ToVerifyAllPagesTitlesTC120</b><br>Test class: smoke.TC_120<br>Parameters: {ExpiryDateYear=2030, FirstName=Samad, numberOfRooms=2, ExpiryDateMonth=12, CreditCardType=AMEX, checkInDate=01/12/2025, CVVNumber=123, BillingAddress=near near beside beside, CreditCardNo=1234567891234567, adultsPerRoom=1, password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, location=Sydney, LastName=Shaik, roomType=Standard, username=Shaik123samad}</td>
+<td></td>
+<td>58</td>
+<td>smoke.TC_120@4562e04d</td></tr>
+<tr>
+<td title='smoke.TC_119.toCancelGeneratedOrderTC119()'><b>toCancelGeneratedOrderTC119</b><br>Test class: smoke.TC_119<br>Parameters: {ExpiryDateYear=2030, FirstName=Samad, verifyResult=0 result(s) found, numberOfRooms=2, ExpiryDateMonth=12, CreditCardType=AMEX, checkInDate=01/12/2025, CVVNumber=123, BillingAddress=near near beside beside, CreditCardNo=1234567891234567, adultsPerRoom=1, verifyCancelled=The booking has been cancelled, password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, location=Sydney, LastName=Shaik, roomType=Standard, username=Shaik123samad}</td>
+<td></td>
+<td>161</td>
+<td>smoke.TC_119@313ac989</td></tr>
+</table><p>
+</body>
+</html>
