@@ -1,41 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="38" total="58" passed="20" failed="0" skipped="0">
+<testng-results ignored="10" total="16" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-07T21:58:26 IST" name="Suite" finished-at="2025-08-07T22:08:00 IST" duration-ms="574491">
+  <suite started-at="2025-08-08T13:30:50 IST" name="Suite" finished-at="2025-08-08T13:33:52 IST" duration-ms="181933">
     <groups>
     </groups>
-    <test started-at="2025-08-07T21:58:26 IST" name="Test" finished-at="2025-08-07T22:08:00 IST" duration-ms="574491">
-      <class name="smoke.TC_108">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_108@368247b9]" started-at="2025-08-07T21:59:40 IST" name="setUp" finished-at="2025-08-07T21:59:43 IST" duration-ms="3624" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void smoke.TC_108.verifyBookAHotelTotalPriceTC108(java.util.HashMap)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyBookAHotelTotalPriceTC108(java.util.HashMap)[pri:0, instance:smoke.TC_108@368247b9]" started-at="2025-08-07T21:59:43 IST" name="verifyBookAHotelTotalPriceTC108" data-provider="getTestData" finished-at="2025-08-07T21:59:48 IST" duration-ms="4495" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{adultsPerRoom=1, password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms=1, checkInDate=01/12/2025, roomType=Standard, username=Shaik123samad}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBookAHotelTotalPriceTC108 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_108@368247b9]" started-at="2025-08-07T21:59:48 IST" name="teardown" finished-at="2025-08-07T21:59:51 IST" duration-ms="3463" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- smoke.TC_108 -->
+    <test started-at="2025-08-08T13:30:50 IST" name="Test" finished-at="2025-08-08T13:33:52 IST" duration-ms="181933">
       <class name="smoke.TC_119">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_119@5ab956d7]" started-at="2025-08-07T22:05:14 IST" name="setUp" finished-at="2025-08-07T22:05:17 IST" duration-ms="3343" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_119@25641d39]" started-at="2025-08-08T13:31:30 IST" name="setUp" finished-at="2025-08-08T13:31:33 IST" duration-ms="2638" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="toCancelGeneratedOrderTC119(java.util.HashMap)[pri:0, instance:smoke.TC_119@5ab956d7]" started-at="2025-08-07T22:05:17 IST" name="toCancelGeneratedOrderTC119" data-provider="getTestData" finished-at="2025-08-07T22:07:03 IST" duration-ms="105573" status="PASS">
+        <test-method signature="toCancelGeneratedOrderTC119(java.util.HashMap)[pri:0, instance:smoke.TC_119@25641d39]" started-at="2025-08-08T13:31:33 IST" name="toCancelGeneratedOrderTC119" data-provider="getTestData" finished-at="2025-08-08T13:32:57 IST" duration-ms="84169" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,469 +29,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toCancelGeneratedOrderTC119 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_119@5ab956d7]" started-at="2025-08-07T22:07:03 IST" name="teardown" finished-at="2025-08-07T22:07:06 IST" duration-ms="3408" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_119@25641d39]" started-at="2025-08-08T13:32:57 IST" name="teardown" finished-at="2025-08-08T13:33:00 IST" duration-ms="3460" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- smoke.TC_119 -->
-      <class name="smoke.TC_109">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_109@1a6d8329]" started-at="2025-08-07T21:59:51 IST" name="setUp" finished-at="2025-08-07T21:59:55 IST" duration-ms="3349" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void smoke.TC_109.logoutCheckTC109(java.util.HashMap)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="logoutCheckTC109(java.util.HashMap)[pri:0, instance:smoke.TC_109@1a6d8329]" started-at="2025-08-07T21:59:55 IST" name="logoutCheckTC109" data-provider="getTestData" finished-at="2025-08-07T22:00:07 IST" duration-ms="12219" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{ExpiryDateYear=2030, FirstName=Samad, numberOfRooms=2, ExpiryDateMonth=12, CreditCardType=AMEX, checkInDate=01/12/2025, CVVNumber=123, BillingAddress=near near, CreditCardNo=1234567891234567, adultsPerRoom=1, password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, location=Sydney, LastName=Shaik, roomType=Standard, username=Shaik123samad}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutCheckTC109 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_109@1a6d8329]" started-at="2025-08-07T22:00:07 IST" name="teardown" finished-at="2025-08-07T22:00:11 IST" duration-ms="3577" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- smoke.TC_109 -->
-      <class name="smoke.TC_111">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_111@55a147cc]" started-at="2025-08-07T22:00:23 IST" name="setUp" finished-at="2025-08-07T22:00:26 IST" duration-ms="2997" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void smoke.TC_111.verifyBookAHotelPageTC111(java.util.HashMap)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyBookAHotelPageTC111(java.util.HashMap)[pri:0, instance:smoke.TC_111@55a147cc]" started-at="2025-08-07T22:00:26 IST" name="verifyBookAHotelPageTC111" data-provider="getTestData" finished-at="2025-08-07T22:00:30 IST" duration-ms="3857" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{adultsPerRoom=1, password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms=2, checkInDate=01/12/2025, roomType=Standard, username=Shaik123samad}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBookAHotelPageTC111 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_111@55a147cc]" started-at="2025-08-07T22:00:30 IST" name="teardown" finished-at="2025-08-07T22:00:33 IST" duration-ms="3326" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- smoke.TC_111 -->
-      <class name="smoke.TC_112">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_112@71ba6d4e]" started-at="2025-08-07T22:00:33 IST" name="setUp" finished-at="2025-08-07T22:00:37 IST" duration-ms="3450" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void smoke.TC_112.verifyTotalBillVthGstTC112(java.util.HashMap)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyTotalBillVthGstTC112(java.util.HashMap)[pri:0, instance:smoke.TC_112@71ba6d4e]" started-at="2025-08-07T22:00:37 IST" name="verifyTotalBillVthGstTC112" data-provider="getTestData" finished-at="2025-08-07T22:00:41 IST" duration-ms="4293" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{adultsPerRoom=1, password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms=2, checkInDate=01/12/2025, roomType=Standard, username=Shaik123samad}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTotalBillVthGstTC112 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_112@71ba6d4e]" started-at="2025-08-07T22:00:41 IST" name="teardown" finished-at="2025-08-07T22:00:44 IST" duration-ms="3345" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- smoke.TC_112 -->
-      <class name="smoke.TC_101">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:smoke.TC_101@791f145a]" started-at="2025-08-07T21:58:26 IST" name="beforeTest" finished-at="2025-08-07T21:58:26 IST" duration-ms="612" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_101@791f145a]" started-at="2025-08-07T21:58:28 IST" name="setUp" finished-at="2025-08-07T21:58:35 IST" duration-ms="7469" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void smoke.TC_101.validLoginDetailsTC101(java.util.HashMap)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="validLoginDetailsTC101(java.util.HashMap)[pri:0, instance:smoke.TC_101@791f145a]" started-at="2025-08-07T21:58:35 IST" name="validLoginDetailsTC101" data-provider="getTestData" finished-at="2025-08-07T21:58:36 IST" duration-ms="706" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=shaik123samad, username=Shaik123samad}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginDetailsTC101 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_101@791f145a]" started-at="2025-08-07T21:58:38 IST" name="teardown" finished-at="2025-08-07T21:58:41 IST" duration-ms="3478" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="reportsEnd()[pri:0, instance:smoke.TC_101@791f145a]" started-at="2025-08-07T22:07:59 IST" name="reportsEnd" finished-at="2025-08-07T22:08:00 IST" duration-ms="1214" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportsEnd -->
-      </class> <!-- smoke.TC_101 -->
-      <class name="smoke.TC_102">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_102@13e344d]" started-at="2025-08-07T21:58:41 IST" name="setUp" finished-at="2025-08-07T21:58:45 IST" duration-ms="3524" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void smoke.TC_102.verifyCheckOutDateTC102(java.util.HashMap)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyCheckOutDateTC102(java.util.HashMap)[pri:0, instance:smoke.TC_102@13e344d]" started-at="2025-08-07T21:58:45 IST" name="verifyCheckOutDateTC102" data-provider="getTestData" finished-at="2025-08-07T21:58:47 IST" duration-ms="2656" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=shaik123samad, checkOutDate=25/11/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms=1, checkInError=Check-In Date shall be before than Check-Out Date, checkInDate=01/12/2025, roomType=Standard, checkOutError=Check-Out Date shall be after than Check-In Date, username=Shaik123samad}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCheckOutDateTC102 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_102@13e344d]" started-at="2025-08-07T21:58:47 IST" name="teardown" finished-at="2025-08-07T21:58:51 IST" duration-ms="3424" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- smoke.TC_102 -->
-      <class name="smoke.TC_113">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_113@738dc9b]" started-at="2025-08-07T22:00:44 IST" name="setUp" finished-at="2025-08-07T22:00:47 IST" duration-ms="3030" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void smoke.TC_113.verifyBookAHotelPageDetailsTC113(java.util.HashMap)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyBookAHotelPageDetailsTC113(java.util.HashMap)[pri:0, instance:smoke.TC_113@738dc9b]" started-at="2025-08-07T22:00:47 IST" name="verifyBookAHotelPageDetailsTC113" data-provider="getTestData" finished-at="2025-08-07T22:00:52 IST" duration-ms="4939" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{adultsPerRoom=1, password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms=2, checkInDate=01/12/2025, roomType=Standard, username=Shaik123samad}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBookAHotelPageDetailsTC113 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_113@738dc9b]" started-at="2025-08-07T22:00:52 IST" name="teardown" finished-at="2025-08-07T22:00:56 IST" duration-ms="3340" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- smoke.TC_113 -->
-      <class name="smoke.TC_103">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_103@1ffaf86]" started-at="2025-08-07T21:58:51 IST" name="setUp" finished-at="2025-08-07T21:58:54 IST" duration-ms="3293" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void smoke.TC_103.verifyPastDatesTC103(java.util.HashMap)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyPastDatesTC103(java.util.HashMap)[pri:0, instance:smoke.TC_103@1ffaf86]" started-at="2025-08-07T21:58:54 IST" name="verifyPastDatesTC103" data-provider="getTestData" finished-at="2025-08-07T21:58:57 IST" duration-ms="2785" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=shaik123samad, checkOutDate=02/04/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms=1, checkInError=Check-In Date should be either Today or Later Date, checkInDate=01/04/2025, roomType=Standard, username=Shaik123samad}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPastDatesTC103 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_103@1ffaf86]" started-at="2025-08-07T21:58:57 IST" name="teardown" finished-at="2025-08-07T21:59:01 IST" duration-ms="3361" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- smoke.TC_103 -->
-      <class name="smoke.TC_114">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_114@3c77d488]" started-at="2025-08-07T22:00:56 IST" name="setUp" finished-at="2025-08-07T22:00:59 IST" duration-ms="3087" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void smoke.TC_114.verifyOrderIdGeneratedTC114(java.util.HashMap)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyOrderIdGeneratedTC114(java.util.HashMap)[pri:0, instance:smoke.TC_114@3c77d488]" started-at="2025-08-07T22:00:59 IST" name="verifyOrderIdGeneratedTC114" data-provider="getTestData" finished-at="2025-08-07T22:01:10 IST" duration-ms="11080" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{ExpiryDateYear=2030, FirstName=Samad, numberOfRooms=2, ExpiryDateMonth=12, CreditCardType=AMEX, checkInDate=01/12/2025, CVVNumber=123, BillingAddress=near near, CreditCardNo=1234567891234567, adultsPerRoom=1, password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, location=Sydney, LastName=Shaik, roomType=Standard, username=Shaik123samad}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyOrderIdGeneratedTC114 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_114@3c77d488]" started-at="2025-08-07T22:01:10 IST" name="teardown" finished-at="2025-08-07T22:01:14 IST" duration-ms="3417" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- smoke.TC_114 -->
-      <class name="smoke.TC_104">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_104@6574a52c]" started-at="2025-08-07T21:59:01 IST" name="setUp" finished-at="2025-08-07T21:59:04 IST" duration-ms="3354" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void smoke.TC_104.verifySelectHotelLocationTC104(java.util.HashMap)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifySelectHotelLocationTC104(java.util.HashMap)[pri:0, instance:smoke.TC_104@6574a52c]" started-at="2025-08-07T21:59:04 IST" name="verifySelectHotelLocationTC104" data-provider="getTestData" finished-at="2025-08-07T21:59:07 IST" duration-ms="3107" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, verifyLocation=Sydney, location=Sydney, numberOfRooms=1, checkInDate=01/12/2025, roomType=Standard, username=Shaik123samad}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySelectHotelLocationTC104 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_104@6574a52c]" started-at="2025-08-07T21:59:07 IST" name="teardown" finished-at="2025-08-07T21:59:11 IST" duration-ms="3594" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- smoke.TC_104 -->
-      <class name="smoke.TC_115">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_115@63376bed]" started-at="2025-08-07T22:01:14 IST" name="setUp" finished-at="2025-08-07T22:01:17 IST" duration-ms="3416" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void smoke.TC_115.verifyBookedItineraryEditableTC115(java.util.HashMap)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyBookedItineraryEditableTC115(java.util.HashMap)[pri:0, instance:smoke.TC_115@63376bed]" started-at="2025-08-07T22:01:17 IST" name="verifyBookedItineraryEditableTC115" data-provider="getTestData" finished-at="2025-08-07T22:02:02 IST" duration-ms="44688" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{ExpiryDateYear=2030, numberOfRooms=2, checkInDate=01/12/2025, CVVNumber=123, BillingAddress=near near, password=shaik123samad, checkOutDate=02/12/2025, HotelName=ssssefdfhb, DepartureDate=zczsds, roomType=Standard, NumberofRooms=dvsddv, FirstName=Samad, LastNameBookedItinerary=cvsf, ExpiryDateMonth=12, CreditCardType=AMEX, OrderId=kkkjjj, RoomsType=fbdfvvdffvd, CreditCardNo=1234567891234567, FirstNameBookedItinerary=cvsfvs, adultsPerRoom=1, hotels=Hotel Cornice, ArrivalDate=dssds, TotalPrice=fdfdfdfdfd, NoofDays=cvfsvff, location=Adelaide, LastName=Shaik, PriceperNight=xcffddddvvv, username=Shaik123samad, Location=dfbdfb}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBookedItineraryEditableTC115 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_115@63376bed]" started-at="2025-08-07T22:02:02 IST" name="teardown" finished-at="2025-08-07T22:02:05 IST" duration-ms="3382" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- smoke.TC_115 -->
-      <class name="smoke.TC_105">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_105@6c1a5b54]" started-at="2025-08-07T21:59:11 IST" name="setUp" finished-at="2025-08-07T21:59:14 IST" duration-ms="3013" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void smoke.TC_105.verifySelectHotelDatesTC105(java.util.HashMap)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifySelectHotelDatesTC105(java.util.HashMap)[pri:0, instance:smoke.TC_105@6c1a5b54]" started-at="2025-08-07T21:59:14 IST" name="verifySelectHotelDatesTC105" data-provider="getTestData" finished-at="2025-08-07T21:59:17 IST" duration-ms="3038" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms=1, checkInDate=01/12/2025, roomType=Standard, username=Shaik123samad}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySelectHotelDatesTC105 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_105@6c1a5b54]" started-at="2025-08-07T21:59:17 IST" name="teardown" finished-at="2025-08-07T21:59:21 IST" duration-ms="3359" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- smoke.TC_105 -->
-      <class name="smoke.TC_116">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_116@4145bad8]" started-at="2025-08-07T22:02:05 IST" name="setUp" finished-at="2025-08-07T22:02:09 IST" duration-ms="3414" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void smoke.TC_116.verifyBookedItineraryDetailsTC116(java.util.HashMap)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyBookedItineraryDetailsTC116(java.util.HashMap)[pri:0, instance:smoke.TC_116@4145bad8]" started-at="2025-08-07T22:02:09 IST" name="verifyBookedItineraryDetailsTC116" data-provider="getTestData" finished-at="2025-08-07T22:03:13 IST" duration-ms="64657" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{ExpiryDateYear=2030, FirstName=Samad, numberOfRooms=2, ExpiryDateMonth=12, CreditCardType=AMEX, checkInDate=01/12/2025, CVVNumber=123, BillingAddress=near near beside beside, CreditCardNo=1234567891234567, adultsPerRoom=1, password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, location=Sydney, LastName=Shaik, roomType=Standard, username=Shaik123samad}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBookedItineraryDetailsTC116 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_116@4145bad8]" started-at="2025-08-07T22:03:14 IST" name="teardown" finished-at="2025-08-07T22:03:17 IST" duration-ms="3440" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- smoke.TC_116 -->
-      <class name="smoke.TC_106">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_106@1c7696c6]" started-at="2025-08-07T21:59:21 IST" name="setUp" finished-at="2025-08-07T21:59:24 IST" duration-ms="3033" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void smoke.TC_106.verifySelectHotelRoomsTC106(java.util.HashMap)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifySelectHotelRoomsTC106(java.util.HashMap)[pri:0, instance:smoke.TC_106@1c7696c6]" started-at="2025-08-07T21:59:24 IST" name="verifySelectHotelRoomsTC106" data-provider="getTestData" finished-at="2025-08-07T21:59:27 IST" duration-ms="2879" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms=3, checkInDate=01/12/2025, roomType=Standard, username=Shaik123samad}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySelectHotelRoomsTC106 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_106@1c7696c6]" started-at="2025-08-07T21:59:27 IST" name="teardown" finished-at="2025-08-07T21:59:30 IST" duration-ms="3306" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- smoke.TC_106 -->
-      <class name="smoke.TC_117">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_117@d86a6f]" started-at="2025-08-07T22:03:17 IST" name="setUp" finished-at="2025-08-07T22:03:21 IST" duration-ms="3554" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void smoke.TC_117.verifyBookedItinerarySearchBarTC117(java.util.HashMap)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyBookedItinerarySearchBarTC117(java.util.HashMap)[pri:0, instance:smoke.TC_117@d86a6f]" started-at="2025-08-07T22:03:21 IST" name="verifyBookedItinerarySearchBarTC117" data-provider="getTestData" finished-at="2025-08-07T22:04:20 IST" duration-ms="58915" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{password=shaik123samad, OrderId=25Z3CH5O6F, username=Shaik123samad}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBookedItinerarySearchBarTC117 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_117@d86a6f]" started-at="2025-08-07T22:04:20 IST" name="teardown" finished-at="2025-08-07T22:04:23 IST" duration-ms="3409" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- smoke.TC_117 -->
-      <class name="smoke.TC_118">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_118@2892d68]" started-at="2025-08-07T22:04:23 IST" name="setUp" finished-at="2025-08-07T22:04:26 IST" duration-ms="3336" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void smoke.TC_118.verifyBookedItineraryTC118(java.util.HashMap)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyBookedItineraryTC118(java.util.HashMap)[pri:0, instance:smoke.TC_118@2892d68]" started-at="2025-08-07T22:04:26 IST" name="verifyBookedItineraryTC118" data-provider="getTestData" finished-at="2025-08-07T22:05:10 IST" duration-ms="43917" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{ExpiryDateYear=2030, FirstName=Samad, numberOfRooms=2, ExpiryDateMonth=12, CreditCardType=AMEX, checkInDate=01/12/2025, CVVNumber=123, BillingAddress=near near beside beside, CreditCardNo=1234567891234567, adultsPerRoom=1, password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, location=Sydney, LastName=Shaik, roomType=Standard, username=Shaik123samad}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBookedItineraryTC118 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_118@2892d68]" started-at="2025-08-07T22:05:10 IST" name="teardown" finished-at="2025-08-07T22:05:14 IST" duration-ms="3363" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- smoke.TC_118 -->
-      <class name="smoke.TC_107">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_107@60099951]" started-at="2025-08-07T21:59:30 IST" name="setUp" finished-at="2025-08-07T21:59:33 IST" duration-ms="2962" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void smoke.TC_107.verifySelectHotelRoomTypeTC107(java.util.HashMap)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifySelectHotelRoomTypeTC107(java.util.HashMap)[pri:0, instance:smoke.TC_107@60099951]" started-at="2025-08-07T21:59:33 IST" name="verifySelectHotelRoomTypeTC107" data-provider="getTestData" finished-at="2025-08-07T21:59:36 IST" duration-ms="2976" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{adultsPerRoom=1, password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms=1, checkInDate=01/12/2025, roomType=Deluxe, username=Shaik123samad}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySelectHotelRoomTypeTC107 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_107@60099951]" started-at="2025-08-07T21:59:36 IST" name="teardown" finished-at="2025-08-07T21:59:40 IST" duration-ms="3415" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- smoke.TC_107 -->
       <class name="smoke.TC_120">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_120@3646a422]" started-at="2025-08-07T22:07:06 IST" name="setUp" finished-at="2025-08-07T22:07:10 IST" duration-ms="3237" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_120@7b36aa0c]" started-at="2025-08-08T13:33:00 IST" name="setUp" finished-at="2025-08-08T13:33:03 IST" duration-ms="2897" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -530,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ToVerifyAllPagesTitlesTC120(java.util.HashMap)[pri:0, instance:smoke.TC_120@3646a422]" started-at="2025-08-07T22:07:10 IST" name="ToVerifyAllPagesTitlesTC120" data-provider="getTestData" finished-at="2025-08-07T22:07:55 IST" duration-ms="45574" status="PASS">
+        <test-method signature="ToVerifyAllPagesTitlesTC120(java.util.HashMap)[pri:0, instance:smoke.TC_120@7b36aa0c]" started-at="2025-08-08T13:33:03 IST" name="ToVerifyAllPagesTitlesTC120" data-provider="getTestData" finished-at="2025-08-08T13:33:48 IST" duration-ms="44425" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -541,39 +57,131 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ToVerifyAllPagesTitlesTC120 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_120@3646a422]" started-at="2025-08-07T22:07:55 IST" name="teardown" finished-at="2025-08-07T22:07:59 IST" duration-ms="3399" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_120@7b36aa0c]" started-at="2025-08-08T13:33:48 IST" name="teardown" finished-at="2025-08-08T13:33:51 IST" duration-ms="3459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- smoke.TC_120 -->
-      <class name="smoke.TC_110">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_110@1a942c18]" started-at="2025-08-07T22:00:11 IST" name="setUp" finished-at="2025-08-07T22:00:15 IST" duration-ms="3803" status="PASS">
+      <class name="smoke.TC_101">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:smoke.TC_101@2e3967ea]" started-at="2025-08-08T13:30:50 IST" name="beforeTest" finished-at="2025-08-08T13:30:51 IST" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_101@2e3967ea]" started-at="2025-08-08T13:30:52 IST" name="setUp" finished-at="2025-08-08T13:30:59 IST" duration-ms="6448" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void smoke.TC_110.verifyTotalPriceMelbourneTC110(java.util.HashMap)]]>
+                <![CDATA[public void smoke.TC_101.validLoginDetailsTC101(java.util.HashMap)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyTotalPriceMelbourneTC110(java.util.HashMap)[pri:0, instance:smoke.TC_110@1a942c18]" started-at="2025-08-07T22:00:15 IST" name="verifyTotalPriceMelbourneTC110" data-provider="getTestData" finished-at="2025-08-07T22:00:19 IST" duration-ms="4478" status="PASS">
+        <test-method signature="validLoginDetailsTC101(java.util.HashMap)[pri:0, instance:smoke.TC_101@2e3967ea]" started-at="2025-08-08T13:30:59 IST" name="validLoginDetailsTC101" data-provider="getTestData" finished-at="2025-08-08T13:31:01 IST" duration-ms="1796" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{adultsPerRoom=1, password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, location=Melbourne, numberOfRooms=2, checkInDate=01/12/2025, roomType=Standard, username=Shaik123samad}]]>
+                <![CDATA[{password=shaik123samad, username=Shaik123samad}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTotalPriceMelbourneTC110 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_110@1a942c18]" started-at="2025-08-07T22:00:19 IST" name="teardown" finished-at="2025-08-07T22:00:23 IST" duration-ms="3487" status="PASS">
+        </test-method> <!-- validLoginDetailsTC101 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_101@2e3967ea]" started-at="2025-08-08T13:31:01 IST" name="teardown" finished-at="2025-08-08T13:31:05 IST" duration-ms="3508" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- smoke.TC_110 -->
+        <test-method is-config="true" signature="reportsEnd()[pri:0, instance:smoke.TC_101@2e3967ea]" started-at="2025-08-08T13:33:51 IST" name="reportsEnd" finished-at="2025-08-08T13:33:52 IST" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportsEnd -->
+      </class> <!-- smoke.TC_101 -->
+      <class name="smoke.TC_102">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_102@52719fb6]" started-at="2025-08-08T13:31:05 IST" name="setUp" finished-at="2025-08-08T13:31:08 IST" duration-ms="2923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void smoke.TC_102.verifyCheckOutDateTC102(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCheckOutDateTC102(java.util.HashMap)[pri:0, instance:smoke.TC_102@52719fb6]" started-at="2025-08-08T13:31:08 IST" name="verifyCheckOutDateTC102" data-provider="getTestData" finished-at="2025-08-08T13:31:10 IST" duration-ms="2116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=shaik123samad, checkOutDate=25/11/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms=1, checkInError=Check-In Date shall be before than Check-Out Date, checkInDate=01/12/2025, roomType=Standard, checkOutError=Check-Out Date shall be after than Check-In Date, username=Shaik123samad}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckOutDateTC102 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_102@52719fb6]" started-at="2025-08-08T13:31:10 IST" name="teardown" finished-at="2025-08-08T13:31:13 IST" duration-ms="3463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- smoke.TC_102 -->
+      <class name="smoke.TC_103">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_103@3012646b]" started-at="2025-08-08T13:31:13 IST" name="setUp" finished-at="2025-08-08T13:31:16 IST" duration-ms="2636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void smoke.TC_103.verifyPastDatesTC103(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPastDatesTC103(java.util.HashMap)[pri:0, instance:smoke.TC_103@3012646b]" started-at="2025-08-08T13:31:16 IST" name="verifyPastDatesTC103" data-provider="getTestData" finished-at="2025-08-08T13:31:18 IST" duration-ms="1930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=shaik123samad, checkOutDate=02/04/2025, hotels=Hotel Creek, location=Sydney, numberOfRooms=1, checkInError=Check-In Date should be either Today or Later Date, checkInDate=01/04/2025, roomType=Standard, username=Shaik123samad}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPastDatesTC103 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_103@3012646b]" started-at="2025-08-08T13:31:18 IST" name="teardown" finished-at="2025-08-08T13:31:21 IST" duration-ms="3349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- smoke.TC_103 -->
+      <class name="smoke.TC_104">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:smoke.TC_104@4a883b15]" started-at="2025-08-08T13:31:21 IST" name="setUp" finished-at="2025-08-08T13:31:24 IST" duration-ms="2644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void smoke.TC_104.verifySelectHotelLocationTC104(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySelectHotelLocationTC104(java.util.HashMap)[pri:0, instance:smoke.TC_104@4a883b15]" started-at="2025-08-08T13:31:24 IST" name="verifySelectHotelLocationTC104" data-provider="getTestData" finished-at="2025-08-08T13:31:26 IST" duration-ms="2401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=shaik123samad, checkOutDate=02/12/2025, hotels=Hotel Creek, verifyLocation=Sydney, location=Sydney, numberOfRooms=1, checkInDate=01/12/2025, roomType=Standard, username=Shaik123samad}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectHotelLocationTC104 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:smoke.TC_104@4a883b15]" started-at="2025-08-08T13:31:27 IST" name="teardown" finished-at="2025-08-08T13:31:30 IST" duration-ms="3369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- smoke.TC_104 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
